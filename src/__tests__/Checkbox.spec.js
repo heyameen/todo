@@ -42,6 +42,7 @@ describe ('<Checkbox/>', () => {
                 <Checkbox id="1" taskDesc="work on shuldrz"/>
             );
             expect(queryByTestId('checkbox-action')).toBeTruthy();
+            
             fireEvent.keyDown(queryByTestId('checkbox-action'))
         })
 
